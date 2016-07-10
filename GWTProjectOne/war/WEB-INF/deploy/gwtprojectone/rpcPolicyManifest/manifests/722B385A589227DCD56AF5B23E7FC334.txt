@@ -1,0 +1,2 @@
+serviceClass: edu.example.client.GreetingService
+path: 4757CB8C82673FBF7A3F6FE025BE941A.gwt.rpc

@@ -1,0 +1,119 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:d="urn:import:com.google.gwt.dom.client"
+	 xmlns:res="urn:with:edu.example.client.LoginResources">
+   <ui:with type="edu.example.client.LoginResources" field="res">
+   </ui:with>
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	.blackText {
+   font-family: Arial, Sans-serif;
+   color: #000000;
+   font-size: 17px;
+   text-align: left;
+}
+
+.redText {
+   font-family: Arial, Sans-serif;
+   color: #ff0000;
+   font-size: 11px;
+   text-align: left;
+}
+
+.loginButton {
+   border: 1px solid #3399DD;
+   color: #FFFFFF;
+   background: #555555;
+   font-size: 20px;
+   font-weight: bold;
+   margin: 0 5px 0 0;
+   padding: 4px 10px 5px;
+   text-shadow: 0 -1px 0 #3399DD;
+ 
+}
+.loginButton:active {
+    vertical-align: top;
+    padding: 5px 8px 3px;
+}
+
+.box {
+   border: 1px solid #AACCEE;
+   display: block;
+   font-size: 12px;
+   margin: 0 0 5px;
+   padding: 3px;
+   width: 203px;
+   margin-left:22px;
+   height:20px;
+}
+
+.background {
+  
+   border: 1px none transparent;
+   color: #000000;
+   font-size: 11px;
+   margin-left: -8px;
+   margin-top: 5px;
+   padding: 6px;
+}
+.img{
+	margin-left:30px;
+	
+}
+
+	.x{
+	float:left;
+	
+}
+
+.box2
+{
+	 border: 1px solid #AACCEE;
+   display: block;
+   font-size: 12px;
+   margin: 0 0 5px;
+   padding: 3px;
+   width: 203px;
+   margin-left:35px;
+   height:20px;
+
+}
+.back{
+	
+    background-image: url("images/background.jpg")
+	}
+	</ui:style>
+	<g:HTMLPanel ui:field="html" styleName="{style.back}">
+	<div align="center">
+      <g:VerticalPanel res:styleName="{style.background}">
+   	<g:HorizontalPanel styleName="{style.img}"><g:Image url="images/ransack.png" ui:field="img" /></g:HorizontalPanel>
+      <g:HorizontalPanel>
+      <g:Label text="Email id" res:styleName="{style.blackText}" />
+      <g:TextBox ui:field="username" res:styleName="{style.box2}"></g:TextBox>
+     
+      </g:HorizontalPanel>
+      <g:HorizontalPanel> <g:Label text ="Password" res:styleName="{style.blackText}"></g:Label>
+      <g:PasswordTextBox ui:field="pwd"    res:styleName="{style.box}"></g:PasswordTextBox></g:HorizontalPanel>
+      <g:Button   ui:field="button" res:styleName="{style.loginButton}">Log In</g:Button>
+       <g:Label ui:field="completionLabel1"  res:styleName="{style.redText}"
+        />
+            <g:Label ui:field="completionLabel2"  styleName="{style.redText}"
+           />
+      </g:VerticalPanel>
+      
+      
+      </div>
+      
+      
+      <div align="center">
+      <h1>DATA EXTRACT PLUGIN</h1>
+      <h4>Search Similar queries faster and efficiently!! </h4>
+      <p>Ransack is a data extraction plugin ,from our BIG repository of data similar to your search query. We offer 2 great options for our users.</p>
+      <p>Sign in and Discover!!</p>
+      </div>
+     <div align="center"> <g:Button ui:field="register" res:styleName="{style.loginButton}">Register</g:Button></div>
+      
+	</g:HTMLPanel>
+</ui:UiBinder> 

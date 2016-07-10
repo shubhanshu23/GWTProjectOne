@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" output="test-classes" path="test"/>
+	<classpathentry kind="con" path="com.google.gwt.eclipse.core.GWT_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/dell1/Desktop/mysql-connector-java-5.1.23-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dell1/Downloads/gwtext-2.0.5/gwtext-2.0.5/gwtext.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dell1/Desktop/dbjar/ch/commons-beanutils-1.7.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dell1/Desktop/dbjar/ch/commons-codec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dell1/Desktop/dbjar/ch/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dell1/Desktop/dbjar/ch/commons-fileupload-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dell1/Desktop/dbjar/ch/commons-httpclient-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dell1/Desktop/dbjar/ch/commons-io-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dell1/Desktop/dbjar/ch/commons-lang-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dell1/Desktop/dbjar/ch/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dell1/Desktop/dbjar/ch/couchdb4j-0.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dell1/Desktop/dbjar/ch/ezmorph-1.0.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dell1/Desktop/dbjar/ch/httpclient-4.3.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dell1/Desktop/dbjar/ch/httpcore-4.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dell1/Desktop/dbjar/ch/json-lib-2.2.3-jdk15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dell1/Desktop/dbjar/ch/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dell1/Desktop/dbjar/ch/quick-json-1.0.2.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dell1/Downloads/lucene-5.2.1/lucene-5.2.1/core/lucene-core-5.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dell1/Downloads/lucene-5.2.1/lucene-5.2.1/queryparser/lucene-queryparser-5.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dell1/Downloads/lucene-5.2.1/lucene-5.2.1/demo/lucene-demo-5.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dell1/Downloads/lucene-5.2.1/lucene-5.2.1/analysis/common/lucene-analyzers-common-5.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dell1/Downloads/couchdb-lucene-master"/>
+	<classpathentry kind="lib" path="C:/Users/dell1/Documents/GitHub/couchdb-lucene/target/couchdb-lucene-1.1.0-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dell1/Desktop/javax.servlet.jar"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>

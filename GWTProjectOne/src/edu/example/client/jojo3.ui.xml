@@ -1,0 +1,146 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+
+	<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:d="urn:import:com.google.gwt.dom.client"
+	 xmlns:res='edu.example.client.LoginResources'>
+   <ui:with type="edu.example.client.LoginResources" field="res">
+   </ui:with>
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+		.important {
+		font-weight: bold;
+	}
+	.blackText {
+   font-family: Arial, Sans-serif;
+   color: #000000;
+   font-size: 17px;
+   text-align: left;
+}
+
+.redText {
+   font-family: Arial, Sans-serif;
+   color: #ff0000;
+   font-size: 11px;
+   text-align: left;
+}
+
+.loginButton {
+   border: 1px solid #3399DD;
+   color: #FFFFFF;
+   background: #555555;
+   font-size: 20px;
+   font-weight: bold;
+   margin: 0 5px 0 0;
+   padding: 4px 10px 5px;
+   text-shadow: 0 -1px 0 #3399DD;
+}
+
+.box {
+   border: 1px solid #AACCEE;
+   display: block;
+   font-size: 12px;
+   margin: 0 0 5px;
+   padding: 3px;
+   width: 203px;
+   margin-left:22px;
+   height:20px;
+}
+
+.background {
+   
+   border: 1px none transparent;
+   color: #000000;
+   font-size: 11px;
+   margin-left: -8px;
+   margin-top: 5px;
+   padding: 6px;
+}
+.img{
+	margin-left:30px;
+	
+}
+	.x{
+	float:left;
+	
+}
+.box1{
+	border: 1px solid #AACCEE;
+   display: block;
+   font-size: 12px;
+   margin: 0 0 5px;
+   padding: 3px;
+   width: 203px;
+   margin-left:35px;
+   height:20px;
+	
+}
+.box3{
+	border: 1px solid #AACCEE;
+   display: block;
+   font-size: 12px;
+   margin: 0 0 5px;
+   padding: 3px;
+   width: 203px;
+   margin-left:19px;
+   height:20px;
+	
+}
+.back{
+	
+    background-image: url("images/background.jpg")
+	}
+.loginButton:active {
+    vertical-align: top;
+    padding: 5px 8px 3px;
+}
+.box4{
+	 border: 1px solid #AACCEE;
+   display: block;
+   font-size: 12px;
+   margin: 0 0 5px;
+   padding: 3px;
+   width: 203px;
+   margin-left:22px;
+   height:20px;
+	
+}
+	</ui:style>
+	<g:HTMLPanel ui:field="html" styleName="{style.back}">
+		<g:TextBox ui:field="search"></g:TextBox>
+		<g:Button styleName="{style.important}" ui:field="button1" >Search</g:Button>
+		<div align="center">
+      <g:VerticalPanel res:styleName="{style.background}">
+   	<g:HorizontalPanel styleName="{style.img}"><g:Image url="images/ransack.png" ui:field="img" /></g:HorizontalPanel>
+   	<g:HorizontalPanel>
+      <g:Label text="Email id  " res:styleName="{style.blackText}" />
+      <g:TextBox ui:field="email" res:styleName="{style.box1}"></g:TextBox>
+     
+      </g:HorizontalPanel>
+      <g:HorizontalPanel>
+      <g:Label text="Username" res:styleName="{style.blackText}" />
+      <g:TextBox ui:field="username" res:styleName="{style.box3}"></g:TextBox></g:HorizontalPanel>
+      
+    <g:HorizontalPanel> <g:Label text="Newname" res:styleName="{style.blackText}" />
+      <g:TextBox ui:field="newusername" res:styleName="{style.box4}"></g:TextBox>
+    </g:HorizontalPanel>
+      <g:HorizontalPanel> <g:Label text ="Password" res:styleName="{style.blackText}"></g:Label>
+      <g:PasswordTextBox ui:field="pwd"    res:styleName="{style.box}"></g:PasswordTextBox></g:HorizontalPanel>
+      <g:HorizontalPanel>
+      <g:Button   ui:field="login" res:styleName="{style.loginButton}">Login</g:Button>
+      <g:Button   ui:field="update" res:styleName="{style.loginButton}">Update</g:Button>
+      </g:HorizontalPanel>
+      
+       <g:Label ui:field="completionLabel1"  res:styleName="{style.redText}"/>
+            <g:Label ui:field="completionLabel2"  styleName="{style.redText}" />
+      </g:VerticalPanel>
+      
+      
+      </div>
+      
+      
+      
+		
+	</g:HTMLPanel>
+</ui:UiBinder> 
